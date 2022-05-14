@@ -28,7 +28,7 @@ time.sleep(10)
 
 #调用图形识别
 #鼠标移动 滑轮滚下
-img_path1 = r'D:\迅雷下载\2.png'
+img_path1 = r'D:\xxxx\2.png'
 pos = pyautogui.locateOnScreen(img_path1)
 zhong=pyautogui.center(pos)
 pyautogui.moveTo(zhong, duration=1)
@@ -36,7 +36,7 @@ pyautogui.scroll(-1000)
 time.sleep(1)
 
 #找到图片位置 并将鼠标移至此处
-img_path2 = r'D:\迅雷下载\1.png'
+img_path2 = r'D:\xxxx\1.png'
 pos1 = pyautogui.locateOnScreen(img_path2)
 zhong1=pyautogui.center(pos1)
 
