@@ -17,8 +17,8 @@ driver.get('https://w1.v2dns.xyz/user')
 #调用selenium 库中的find_element_by_xpath()方法定位搜索框
 #同时使用send_keys()方法在其中输入信息
 time.sleep(5)
-driver.find_element_by_xpath('//*[@id="email"]').send_keys("153732378@qq.com")
-driver.find_element_by_xpath('//*[@id="passwd"]').send_keys("Sun251989")
+driver.find_element_by_xpath('//*[@id="email"]').send_keys("xxxxxxxxx")
+driver.find_element_by_xpath('//*[@id="passwd"]').send_keys("xxxxxxxxx")
 
 #调用selenium库中的find_element_by_xpath()方法定位搜索框
 #用click（）方法对按钮点击
